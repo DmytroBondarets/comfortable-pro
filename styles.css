@@ -593,6 +593,24 @@ button {
   padding-top: 60px;
 }
 
+.moodboard {
+  display: none;
+}
+
+.moodboard-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.moodboard-grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 .shop-copy {
   text-align: center;
   max-width: 760px;
