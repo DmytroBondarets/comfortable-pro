@@ -696,6 +696,17 @@ button {
   gap: 8px;
 }
 
+.payment-methods {
+  width: 180px;
+  max-width: 100%;
+}
+
+.payment-methods img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 980px) {
   .site-header {
     flex-wrap: wrap;
